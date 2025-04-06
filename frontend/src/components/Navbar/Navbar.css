@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #4CAF50; /* Green background */
+    overflow: hidden; /* Clear floats */
+}
+
+.navbar a {
+    float: left; /* Position links to the left */
+    display: block; /* Make links appear as blocks */
+    color: white; /* White text color */
+    text-align: center; /* Center text */
+    padding: 14px 16px; /* Padding around links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.navbar a:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.navbar .logo {
+    font-size: 24px; /* Larger font size for logo */
+    font-weight: bold; /* Bold text for logo */
+}
+
+.navbar .nav-links {
+    display: flex; /* Use flexbox for navigation links */
+    justify-content: space-around; /* Space links evenly */
+    align-items: center; /* Center items vertically */
+}
